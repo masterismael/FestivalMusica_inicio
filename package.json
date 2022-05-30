@@ -4,7 +4,7 @@
   "description": "Proyecto SASS,Gulp y Html",
   "main": "index.js",
   "scripts": {
-    "sass" : "sass --watch src/scss:build/css"
+    "sass": "sass src/scss/app.scss build/css/app.css -w"
   },
   "keywords": [
     "SASS",
